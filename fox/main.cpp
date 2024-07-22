@@ -33,7 +33,7 @@ int main() {
             .duration_info = std::cref(info),
             .progress = progress,
             .duration = max_progress,
-        });
+        }, {});
 
         EndDrawing();
     }
