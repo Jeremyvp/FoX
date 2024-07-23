@@ -9,13 +9,13 @@ struct settings {
 };
 
 class game {
-  public:
+public:
     game() = default;
     game(settings);
 
     auto run() -> void;
 
-  private:
+private:
     auto update() -> void;
     auto draw() -> void;
 
