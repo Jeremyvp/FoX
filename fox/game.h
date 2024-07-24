@@ -1,5 +1,7 @@
 #pragma once
 
+#include <components/component_system.h>
+
 namespace fox {
 
 struct settings {
@@ -20,6 +22,8 @@ private:
     auto draw() -> void;
 
     settings m_settings;
+    components::component_system m_component_system;
+
 };
 
 } // namespace fox

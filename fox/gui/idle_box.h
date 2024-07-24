@@ -11,7 +11,6 @@ namespace fox::gui {
 
 using namespace fox;
 
-
-auto draw_idle_box(const idle_box_data& data, const Rectangle& rectangle) -> void;
+auto draw_idle_box(const components::idler_component& data, const Rectangle& rectangle) -> void;
 
 } // namespace fox::gui
