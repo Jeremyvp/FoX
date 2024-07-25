@@ -15,7 +15,7 @@ struct to_vectors {
 };
 } // namespace detail
 
-using component_types = std::tuple<idler_component>;
+using component_types = std::tuple<idler>;
 using component_lists_t = std::invoke_result_t<detail::to_vectors, component_types>;
 
 class component_system {

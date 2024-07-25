@@ -3,7 +3,7 @@
 #include <raygui.h>
 #include <raylib.h>
 
-auto fox::gui::draw_idle_box(const components::idler_component& data,
+auto fox::gui::draw_idle_box(const components::idler& data,
                              const Rectangle& rectangle) -> void {
     auto value = static_cast<float>(data.progress.count());
     const auto max = static_cast<float>(data.base_duration.count());

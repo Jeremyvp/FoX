@@ -1,6 +1,6 @@
 #include "idler.h"
 
-auto fox::components::update(idler_component& idler,
+auto fox::components::update(idler& idler,
                              std::chrono::milliseconds delta,
                              float multiplier_speedup,
                              std::chrono::milliseconds flat_speedup) -> void {
